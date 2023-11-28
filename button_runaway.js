@@ -8,8 +8,8 @@ var x = pos.left;
 var y = pos.top;
 
 document.addEventListener("mousemove", runaway);
-document.addEventListener("mousedown", () =>{
-	console.log("(^^)");
+button.addEventListener("mousedown", () =>{
+	alert("(^^)");
 });
 
 
@@ -38,8 +38,5 @@ function runaway(event){
 		x = pos.left;
 		y = pos.top;
 	}
-//	else{
-//		button = document.querySelector("#id_btn")
-//	}
 }
 
