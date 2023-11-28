@@ -34,7 +34,7 @@ function runaway(event){
 		x = pos.left;
 		y = pos.top;
 	}
-	else{
-		button = document.querySelector("#id_btn")
-	}
+//	else{
+//		button = document.querySelector("#id_btn")
+//	}
 }
