@@ -6,6 +6,7 @@ var pos = button.getBoundingClientRect();
 
 var x = pos.left;
 var y = pos.top;
+
 document.addEventListener("mousemove", runaway);
 
 console.log(button.style.backgroundColor)
