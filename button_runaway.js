@@ -8,8 +8,11 @@ var x = pos.left;
 var y = pos.top;
 
 document.addEventListener("mousemove", runaway);
+document.addEventListener("mousedown", () =>{
+	console.log("(^^)");
+});
 
-console.log(button.style.backgroundColor)
+
 
 function rand() {
 	var rand = Math.random();
@@ -39,3 +42,4 @@ function runaway(event){
 //		button = document.querySelector("#id_btn")
 //	}
 }
+
